@@ -46,11 +46,6 @@
         }
         &-btn-box {
             @include flex-center;
-            & svg {
-                @include _700 {
-                width: 70%;
-            }
-        }
         }
 
         @include _700 {
