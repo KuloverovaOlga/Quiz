@@ -1,0 +1,61 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Jura', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: normal;
+    color: #000;
+    background:  #5FC93A;
+    position: relative;
+
+    @include _600 {
+        font-size: 18px;
+    }
+
+    @include _450 {
+        font-size: 16px;
+    }
+
+    &::after {
+        content: '';
+        position: fixed;
+        inset: 0;
+        height: 100%;
+        background: url('./../images/bg.png') 50% / cover no-repeat;
+        opacity: 0.1;
+        z-index: -1;
+    }
+}
+
+
+
+// -------------------------------------------------------------------------------------------//
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: 'Rubik Iso', cursive;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn {
+    text-align: center;
+    @include btn-text-color;
+    background-color: #000;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        box-shadow: 0px 0px 5px #000;
+    }
+
+    
+}
+
+
