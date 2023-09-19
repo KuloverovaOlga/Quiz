@@ -21,17 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let quizes = await fetchQuizes();
         let countShowCard = 4;
      
-        // 
-        // if (quizes.error) {
-        //     main.append(
-        //         createElement('p', {
-        //             className: 'server-error',
-        //             textContent: 'Ошибка сервера, попробуйте зайти позже',
-        //         })
-        //     );
-        //     return;
-        // }
-    
+   
         const searchFilters = (goods, value) => {
             return goods.filter((el) => {
                 return el.title.toLowerCase().includes(value.toLowerCase());
