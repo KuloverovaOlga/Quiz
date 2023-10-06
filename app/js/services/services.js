@@ -1,4 +1,4 @@
-const API_URL = 'https://quiz-59ff0-default-rtdb.firebaseio.com/quiz';
+const API_URL = 'https://quiz-c52ca-default-rtdb.firebaseio.com/quiz';
 
 export const fetchQuizes = async () => {
     try {
