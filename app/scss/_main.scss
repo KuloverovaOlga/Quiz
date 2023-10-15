@@ -231,13 +231,19 @@
 
     &__img-box {
         pointer-events: none;
+        width: 93px;
+        height: 112px;
     }
     &__img-box .img1 {
         position: absolute;
+        width: 93px;
+        height: 112px;
     }
     &__img-box .img2 {
         opacity: 0;
         transition: all 0.3s ease-in;
+        width: 93px;
+        height: 112px;
     }
 
     // .catalog__item-text
