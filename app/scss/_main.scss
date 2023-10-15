@@ -392,7 +392,7 @@
         padding: 7px 22px;
         cursor: pointer;
         position: relative;
-        transition: all 0.3 ease-in;
+        transition: all 0.3s ease-in;
 
         &::after {
             @include answer-lamp;
