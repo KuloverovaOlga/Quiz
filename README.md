@@ -1,5 +1,5 @@
 <h1>Quiz</h1> 
-
+<sub>Js project</sub>
 
 <h2>🛠️ Use Skills:</h2>  
 
